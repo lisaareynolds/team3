@@ -31,15 +31,15 @@ public class AnimalShelter {
              * Assign the latest input to a variable
              */
             String input = animalScanner.nextLine();
-            if (input.equals("inventory")) {
+            if (input.equalsIgnoreCase("inventory")) {
                 f = 1;
                 break;
             }
-            else if (input.equals("adopt")) {
+            else if (input.equalsIgnoreCase("adopt")) {
                 f = 1;
                 break;
             }
-            else if (input.equals("inventory")) {
+            else if (input.equalsIgnoreCase("inventory")) {
                 f = 1;
                 break;
             }
