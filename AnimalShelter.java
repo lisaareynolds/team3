@@ -39,7 +39,7 @@ public class AnimalShelter {
                 f = 1;
                 break;
             }
-            else if (input.equalsIgnoreCase("inventory")) {
+            else if (input.equalsIgnoreCase("donate")) {
                 f = 1;
                 break;
             }
